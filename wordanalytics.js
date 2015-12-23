@@ -20,3 +20,15 @@ W.makeDictionary = function(array) {
   }
   return dict;
 };
+
+W.lexicalDiversity = function(collection) {
+  // return the number of words divided by the number of unique words
+}
+
+W.countUniq = function(collection) {
+  if(Array.isArray(collection)) {
+    //count unique words
+  } else {
+    return Object.keys(collection).length;
+  }
+}
